@@ -1,0 +1,57 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.*
+token.*
+secret.*
+secrets/
+CLAUDE.local.md
+
+# Python / common build artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+dist/
+build/
+
+# Node / common frontend artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs/
+
+# Local/private data
+data/private/
+data/live/
+data/raw/
+data/sensitive/
+
+# Generated outputs
+09_outputs/generated/
+09_outputs/temp/
+
+# Temporary files
+tmp/
+.temp/
+.cache/
